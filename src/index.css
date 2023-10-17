@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Rancho {
+    font-family: 'Rancho', cursive;
+}
+
+.Raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* new style */
+.header-bg {
+    background-image: url('https://i.postimg.cc/pdBDH0TY/15.jpg');
+}
+
+.banner-bg {
+    background-image: url("https://i.postimg.cc/Kz6L7Csb/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* popular */
+.popular-bg {
+    background-image: url('https://i.postimg.cc/fRH6WhbB/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* text-shadow */
+.text-shadow {
+    text-shadow: 0px 0px 7px #1B1A1A;
+}
+
+
+.addcoffee-bg {
+    background-image: url('https://i.postimg.cc/ZYp1zfDg/11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+.footer-bg {
+    background-image: url('https://i.postimg.cc/GmtZfMd6/13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
